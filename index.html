@@ -78,7 +78,7 @@
   <div class="hero-inner">
     <h1 id="heroTitle">PP.UA</h1>
     <div class="slogan" id="slogan">Smart IPTV для вашего телевизора</div>
-    <a class="dl-btn" id="dlBtn" href="https://maximmotorolka.github.io/pp-ua/TGWebK.apk">Скачать приложение</a>
+    <a class="dl-btn" id="dlBtn" href="#download" onclick="return false;">Скачать приложение</a>
     <p class="text" id="heroText">PP.UA – это одно из самых популярных Smart TV приложений. PP.UA стало первым приложением, предоставившим своим пользователям возможность просмотра IP-телевидения. Сегодня PP.UA – это динамично развивающаяся платформа, центр развлечений внутри Вашего телевизора: IPTV от сотен контент-операторов, эфирные каналы, видео из социальных сетей и облачных сервисов – все это доступно возможностями одного единственного приложения!</p>
   </div>
 </div>
@@ -239,7 +239,7 @@ function openModal() {
     $("c_name").value = c.name || "PP.UA";
     $("c_slogan").value = c.slogan || "Smart IPTV для вашего телевизора";
     $("c_text").value = c.text || "";
-    $("c_dl").value = c.dl || "https://maximmotorolka.github.io/pp-ua/TGWebK.apk";
+    $("c_dl").value = c.dl || "";
     $("loginForm").style.display = "none";
     $("cfgForm").style.display = "block";
   } else {
